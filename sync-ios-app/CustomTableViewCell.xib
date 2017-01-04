@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Klavika Regular Plain.otf">
+            <string>KlavikaRegular-Plain</string>
+            <string>KlavikaRegular-Plain</string>
+            <string>KlavikaRegular-Plain</string>
+            <string>KlavikaRegular-Plain</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CustomCellOne" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="sync_ios_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket No :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt5-0a-Idu">
+                        <rect key="frame" x="14" y="10" width="87" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Jhx-CU-7Oq"/>
+                            <constraint firstAttribute="width" constant="87" id="btY-0J-X7o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KlavikaRegular-Plain" family="Klavika Regular" pointSize="16"/>
+                        <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8i7-5N-1n1">
+                        <rect key="frame" x="14" y="37" width="121" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="121" id="FS9-OJ-wYn"/>
+                            <constraint firstAttribute="height" constant="21" id="V7r-Mx-2D5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KlavikaRegular-Plain" family="Klavika Regular" pointSize="16"/>
+                        <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVf-6s-mcb">
+                        <rect key="frame" x="146" y="10" width="160" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="uLe-JM-NQy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KlavikaRegular-Plain" family="Klavika Regular" pointSize="15"/>
+                        <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7u-rC-UdX">
+                        <rect key="frame" x="146" y="37" width="160" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="fbC-86-Xy6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KlavikaRegular-Plain" family="Klavika Regular" pointSize="15"/>
+                        <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudwarning" translatesAutoresizingMaskIntoConstraints="NO" id="gQM-Mw-mur">
+                        <rect key="frame" x="310" y="23" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="6MQ-CP-P7a"/>
+                            <constraint firstAttribute="height" constant="24" id="aSb-fK-mpk"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aVf-6s-mcb" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="1/2" id="0E7-Je-CgE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8i7-5N-1n1" secondAttribute="bottom" constant="3" id="8ex-Hy-NHW"/>
+                    <constraint firstItem="8i7-5N-1n1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="A9R-iN-n6r"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="s7u-rC-UdX" secondAttribute="bottom" constant="3" id="C16-Sq-GxN"/>
+                    <constraint firstItem="s7u-rC-UdX" firstAttribute="leading" secondItem="8i7-5N-1n1" secondAttribute="trailing" constant="11" id="MWE-ZD-OFn"/>
+                    <constraint firstItem="aVf-6s-mcb" firstAttribute="leading" secondItem="Pt5-0a-Idu" secondAttribute="trailing" constant="45" id="Rte-Fs-2X2"/>
+                    <constraint firstItem="gQM-Mw-mur" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="Ue3-1D-jVo"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gQM-Mw-mur" secondAttribute="trailing" constant="-5" id="XDq-M9-YJl"/>
+                    <constraint firstItem="8i7-5N-1n1" firstAttribute="top" secondItem="Pt5-0a-Idu" secondAttribute="bottom" constant="6" id="dq8-ID-3FX"/>
+                    <constraint firstItem="Pt5-0a-Idu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="eTF-bZ-7eY"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gQM-Mw-mur" secondAttribute="bottom" constant="14" id="kNa-2w-NM4"/>
+                    <constraint firstItem="s7u-rC-UdX" firstAttribute="top" secondItem="aVf-6s-mcb" secondAttribute="bottom" constant="6" id="nWK-KA-PPf"/>
+                    <constraint firstItem="aVf-6s-mcb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="oDF-bA-WCG"/>
+                    <constraint firstItem="Pt5-0a-Idu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="pMr-1A-9V5"/>
+                    <constraint firstItem="aVf-6s-mcb" firstAttribute="leading" secondItem="Pt5-0a-Idu" secondAttribute="trailing" constant="45" id="rbL-pf-Til"/>
+                    <constraint firstItem="s7u-rC-UdX" firstAttribute="width" secondItem="aVf-6s-mcb" secondAttribute="width" id="vjk-kN-RU6"/>
+                    <constraint firstItem="s7u-rC-UdX" firstAttribute="top" secondItem="aVf-6s-mcb" secondAttribute="bottom" constant="6" id="vt3-jv-o2g"/>
+                    <constraint firstItem="s7u-rC-UdX" firstAttribute="leading" secondItem="8i7-5N-1n1" secondAttribute="trailing" constant="11" id="wcA-RW-XN5"/>
+                    <constraint firstItem="8i7-5N-1n1" firstAttribute="top" secondItem="Pt5-0a-Idu" secondAttribute="bottom" constant="6" id="yrX-oS-kep"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="productNameLbl" destination="s7u-rC-UdX" id="1ly-cA-DMg"/>
+                <outlet property="syncIcon" destination="gQM-Mw-mur" id="l7M-rM-cJQ"/>
+                <outlet property="ticketNoLbl" destination="aVf-6s-mcb" id="YFZ-80-DAV"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="77"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cloudwarning" width="32" height="32"/>
+    </resources>
+</document>

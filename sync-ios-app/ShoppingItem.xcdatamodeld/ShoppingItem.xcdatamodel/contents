@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16A323" minimumToolsVersion="Xcode 7.0">
+    <entity name="ShoppingItem" representedClassName=".ShoppingItem" syncable="YES">
+        <attribute name="addressline1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressline2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="closuredate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="costofreplacement" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="createddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateassigned" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateofpurchase" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="digitalsign" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="partname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="problemcomments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productcomments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="replacementreqd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serialno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servicecharges" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="severitylevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="technician" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticketid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalcharges" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zipcode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserDetails" representedClassName=".UserDetails" syncable="YES">
+        <attribute name="addressline1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressline2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="devicetoken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userrole" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zipcode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ShoppingItem" positionX="-63" positionY="-18" width="128" height="495"/>
+        <element name="UserDetails" positionX="-54" positionY="-9" width="128" height="195"/>
+    </elements>
+</model>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+<dict>
+  <key>host</key>
+  <string>https://hcl.apac.evals.redhatmobile.com</string>
+  <key>appid</key>
+  <string>rjtxjdmxcjbcyubpk5prxtts</string>
+  <key>projectid</key>
+  <string>rjtxjdikqjyzog77ktosomug</string>
+  <key>appkey</key>
+  <string>63a60f52084839cceef8e1595dcdc0c44d7b8f64</string>
+  <key>connectiontag</key>
+  <string>0.0.3</string>
+  <key>variantID</key>
+  <string>8303a490-17b5-4b5d-a1ce-e7fa6fe1070f</string>
+  <key>variantSecret</key>
+  <string>0ab9e8a8-0259-40cc-aeaa-31534fb0d727</string>
+</dict>
+</plist>
